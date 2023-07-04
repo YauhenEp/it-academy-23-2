@@ -1,0 +1,19 @@
+{
+  "name": "lesson_14.1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.7",
+    "jasmine": "^5.0.2",
+    "jasmine-parameterized": "^1.0.0",
+    "jasmine-reporters": "^2.5.2",
+    "jasmine-spec-reporter": "^7.0.0"
+  }
+}

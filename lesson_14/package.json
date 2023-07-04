@@ -1,0 +1,17 @@
+{
+  "name": "lesson_14",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^29.6.0",
+    "jest-html-reporters": "^3.1.4",
+    "jest-junit": "^16.0.0"
+  }
+}
