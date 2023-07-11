@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Generated schema for Root",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "boolean"
+    },
+    "joke": {
+      "type": "number"
+    },
+    "status": {
+      "type": "number",
+      "pattern": "200|404"
+    }
+  },
+  "required": [
+    "id",
+    "joke",
+    "status",
+    "body",
+    "response"
+  ]
+}
