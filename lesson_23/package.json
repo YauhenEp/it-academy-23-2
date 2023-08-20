@@ -1,0 +1,17 @@
+{
+  "name": "lesson_23",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test demo-todo-app.spec.js:14 --project=chromium --debug",
+    "test:onliner": "npx playwright test --project=onliner",
+    "test:webdriverio": "npx playwright test --project=webdriverio"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.36.2"
+  }
+}

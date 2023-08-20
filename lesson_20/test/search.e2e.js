@@ -11,6 +11,6 @@ describe('Search', function () {
         await mainPage.navigate('https://www.onliner.by/');
         await search.startSearch('Iphone');
         await searchResultPage.waitSearchResult();
-        expect(await $(searchResultPage.searchResultHeader).getText().toLowerCase()).to.contain('iphone');
+        expect(await (await $(searchResultPage.searchResultHeader).getText()).toLowerCase()).to.contain('iphone');
     })
 });
